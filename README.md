@@ -49,7 +49,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
  ### 1. Check Step1 AppId.
  ### 2. Edit Domains.
- ### 3. Edit Return URLs. This PlugIn provide default ReturnURL. "https://onlinesubsystem.azurewebsites.net/api/apple.redirect"
+ ### 3. Edit Return URLs. This PlugIn provide default ReturnURL. "https://onlinesubsystem.azurewebsites.net/api/apple/redirect"
  ### 4. Click Next.
  ![ScreenShot](img/Step12.jpg)
 
@@ -60,16 +60,16 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
 # Step3 - Edit your Unreal [DefaultEngine.ini]
  
- [OnlineSubsystemApple.OnlineIdentityApple]
- ClientId=com.onlinesubsystem.apple.service
- LoginRedirectUrl=https://onlinesubsystem.azurewebsites.net/api/apple/redirect
- CheckBackendUrl=https://onlinesubsystem.azurewebsites.net/api/apple/check
+ [OnlineSubsystemApple.OnlineIdentityApple]<br />
+ ClientId=com.onlinesubsystem.apple.service<br />
+ LoginRedirectUrl=https://onlinesubsystem.azurewebsites.net/api/apple/redirect <br />
+ CheckBackendUrl=https://onlinesubsystem.azurewebsites.net/api/apple/check <br />
 
 
 
 # Step4 - Build on IOS. You have to config DefaultEngine.ini
 
- [/Script/IOSRuntimeSettings.IOSRuntimeSettings]
+ [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
  bEnableSignInWithAppleSupport=True
 
 
