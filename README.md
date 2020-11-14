@@ -6,10 +6,10 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
  ![ScreenShot](img/Step1.jpg)
 
- ## Step1 - Create App Id
+# Step1 - Create App Id
  ![ScreenShot](img/Step2.jpg)
 
- ###Select App Ids and Countinue
+ ### Select App Ids and Countinue
  ![ScreenShot](img/Step3.jpg)
 
  Countinue
@@ -31,7 +31,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  ![ScreenShot](img/Step7.jpg)
 
 
- ## Step2 - Create Service Id
+# Step2 - Create Service Id
  ![ScreenShot](img/Step8.jpg)
 
  Select Services IDs and Countinue
@@ -58,7 +58,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  ![ScreenShot](img/Step13.jpg)
 
 
- ## Step3 - Edit your Unreal [DefaultEngine.ini]
+# Step3 - Edit your Unreal [DefaultEngine.ini]
  
  [OnlineSubsystemApple.OnlineIdentityApple]
  ClientId=com.onlinesubsystem.apple.service
@@ -67,17 +67,17 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
 
 
- ## Step4 - Build on IOS. You have to config DefaultEngine.ini
+# Step4 - Build on IOS. You have to config DefaultEngine.ini
 
  [/Script/IOSRuntimeSettings.IOSRuntimeSettings]
  bEnableSignInWithAppleSupport=True
 
 
 
- ## Step5 - YourProject.Build.cs
+# Step5 - YourProject.Build.cs
   PublicDependencyModuleNames.Add("OnlineSubsystemApple");
 
 
- ## Done. 
+# Done. 
   This PlugIn Provide simple ASP.net core Backend Server with source code. You can customize ReturnURL.
   Remember Step2 Apple Service IDs Indentifier is ClientId in DefaultEngine.ini
