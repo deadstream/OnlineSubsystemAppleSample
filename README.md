@@ -49,7 +49,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
  ### 1. Check Step1 AppId.
  ### 2. Edit Domains.
- ### 3. Edit Return URLs. This PlugIn provide default ReturnURL. "https://onlinesubsystem.azurewebsites.net/api/apple/redirect"
+ ### 3. Edit Return URLs. This PlugIn provide default ReturnURL. "https://onlinesubsystem.azurewebsites.net/api/apple/notificate"
  ### 4. Click Next.
  ![ScreenShot](img/Step12.jpg)
 
@@ -58,7 +58,8 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  ![ScreenShot](img/Step13.jpg)
 
 
-# Step3 - Edit your Unreal [DefaultEngine.ini]
+# Step3 - Edit your Unreal [PlatformEngine.ini]
+ ex) Config/Windows/WindowsEngine.ini
  
  [OnlineSubsystemApple.OnlineIdentityApple]<br />
  ClientId=com.onlinesubsystem.apple.service<br />
@@ -78,6 +79,10 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
   PublicDependencyModuleNames.Add("OnlineSubsystemApple");
 
 
+# Step6 - Use In Blueprint
+![ScreenShot](img/Step14.png)
+
+
 # Done. 
-  This PlugIn Provide simple ASP.net core Backend Server with source code. You can customize ReturnURL.
+  This PlugIn Provide simple ASP.net core Backend Server with source code. You can customize ReturnURL.<br />
   Remember Step2 Apple Service IDs Indentifier is ClientId in DefaultEngine.ini

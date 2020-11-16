@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnrealSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemApple",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"MacNoEditor",
+		"WindowsNoEditor",
+		"IOS"
+	]
+}
