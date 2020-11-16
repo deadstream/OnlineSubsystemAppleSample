@@ -49,7 +49,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
  ### 1. Check Step1 AppId.
  ### 2. Edit Domains.
- ### 3. Edit Return URLs. This PlugIn provide default ReturnURL. "https://onlinesubsystem.azurewebsites.net/api/apple/notificate"
+ ### 3. Edit Return URLs. This PlugIn provide default ReturnURL. "https://onlinesubsystem.azurewebsites.net/api/apple/Redirect"
  ### 4. Click Next.
  ![ScreenShot](img/Step12.jpg)
 
