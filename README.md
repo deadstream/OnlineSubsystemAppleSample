@@ -1,8 +1,30 @@
 # OnlineSubsystemApple
 this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprint supported.
 
+# Step1 - Edit your Unreal [[Platform]Engine.ini]
+ ex) Config/Windows/WindowsEngine.ini
+ 
+ [OnlineSubsystemApple.OnlineIdentityApple]<br />
+ ClientId=com.onlinesubsystem.apple.service<br />
+ LoginRedirectUrl=https://onlinesubsystem.azurewebsites.net/api/apple/redirect <br />
+ CheckBackendUrl=https://onlinesubsystem.azurewebsites.net/api/apple/check <br />
 
-# Befor use this plugin, u create Identifiers
+
+# Step2 - Build on IOS. You have to config DefaultEngine.ini
+
+ [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
+ bEnableSignInWithAppleSupport=True
+
+
+# Step3 - YourProject.Build.cs
+  PublicDependencyModuleNames.Add("OnlineSubsystemApple");
+
+
+# Step4 - Use In Blueprint
+![ScreenShot](img/Step14.png)
+
+
+# Customize plugin, u have to registered Apple Developer Program.
 
  ![ScreenShot](img/Step1.jpg)
 
@@ -58,29 +80,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  ![ScreenShot](img/Step13.jpg)
 
 
-# Step3 - Edit your Unreal [PlatformEngine.ini]
- ex) Config/Windows/WindowsEngine.ini
- 
- [OnlineSubsystemApple.OnlineIdentityApple]<br />
- ClientId=com.onlinesubsystem.apple.service<br />
- LoginRedirectUrl=https://onlinesubsystem.azurewebsites.net/api/apple/redirect <br />
- CheckBackendUrl=https://onlinesubsystem.azurewebsites.net/api/apple/check <br />
 
-
-
-# Step4 - Build on IOS. You have to config DefaultEngine.ini
-
- [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
- bEnableSignInWithAppleSupport=True
-
-
-
-# Step5 - YourProject.Build.cs
-  PublicDependencyModuleNames.Add("OnlineSubsystemApple");
-
-
-# Step6 - Use In Blueprint
-![ScreenShot](img/Step14.png)
 
 
 # Done. 
