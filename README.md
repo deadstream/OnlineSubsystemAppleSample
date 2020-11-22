@@ -1,16 +1,15 @@
 # OnlineSubsystemApple
 this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprint supported.
 
-# Step1 - Edit your Unreal [[Platform]Engine.ini]
- ex) Config/Windows/WindowsEngine.ini
- 
+# Step1 - Edit your Unreal [Engine.ini] Config/DefaultEngine.ini, Config/Windows/WindowsEngine.ini, Config/Android/AndroidEngine.ini
+
  [OnlineSubsystemApple.OnlineIdentityApple]<br />
  ClientId=com.onlinesubsystem.apple.service<br />
  LoginRedirectUrl="https://onlinesubsystem.azurewebsites.net/api/apple/redirect" <br />
  CheckBackendUrl="https://onlinesubsystem.azurewebsites.net/api/apple/check" <br />
+ 
 
-
-# Step2 - Build on IOS. You have to config DefaultEngine.ini
+# Step2 - Build on IOS. You have to add config DefaultEngine.ini
 
  [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
  bEnableSignInWithAppleSupport=True
