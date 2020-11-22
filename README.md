@@ -9,15 +9,15 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  CheckBackendUrl="https://onlinesubsystem.azurewebsites.net/api/apple/check" <br />
  
 
-# Step2 - Build on IOS. You have to add config DefaultEngine.ini
-
- [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
- bEnableSignInWithAppleSupport=True
-
-
-# Step3 - YourProject.Build.cs
+# Step2 - YourProject.Build.cs
   PublicDependencyModuleNames.Add("OnlineSubsystemApple");
 
 
-# Step4 - Use In Blueprint
+# Step3 - Use In Blueprint
 ![ScreenShot](img/Step14.png)
+
+
+# Step4 - If u build on IOS. You have to add config DefaultEngine.ini
+
+ [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
+ bEnableSignInWithAppleSupport=True
