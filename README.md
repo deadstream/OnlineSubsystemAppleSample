@@ -20,14 +20,16 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
  bEnableSignInWithAppleSupport=True
  
-# Step2 - Must Restart Unreal Editor.
- Test On Editor.  For read again Engine.ini Step2's configuration.
-
-# FAQ
- After You edit DefaultEngine.ini (Step1). But still show Invlid_Request in SignIn process <br />
-  - Check Double quotes LoginRedirectUrl and CheckBackendUrl. Like "https://onlinesubsystem.azurewebsites.net/api/apple/redirect"
-  - Restart Unreal Editor. for read again DefaultEngine.ini.
+# Step2 - Recommended Restart Unreal Editor. After Step1
+ - For read again DefaultEngine.ini
 
 # Use In Blueprint
-![ScreenShot](img/Step14.png)
+![ScreenShot](img/Step14.png) 
+
+# FAQ
+ After You edit DefaultEngine.ini (Step1) and Restart Editor (Step2). But still show Invlid_Request in SignIn process <br />
+  - Check Double quotes LoginRedirectUrl and CheckBackendUrl. Like "https://onlinesubsystem.azurewebsites.net/api/apple/redirect" <br />
+  - Restart Unreal Editor. for read again DefaultEngine.ini. <br />
+
+
 
