@@ -19,7 +19,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 # Step3 - Must Restart Unreal Editor.
  Test On Editor.  For read again Engine.ini Step2's configuration.
 
-# Step3 - Use In Blueprint
+# Use In Blueprint
 ![ScreenShot](img/Step14.png)
 
 
