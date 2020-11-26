@@ -20,7 +20,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
  [/Script/IOSRuntimeSettings.IOSRuntimeSettings]<br />
  bEnableSignInWithAppleSupport=True
  
-# Step2 - Recommended Restart Unreal Editor. After Step1
+# Step2 - Restart Unreal Editor. After Step1
  - For read again DefaultEngine.ini
 
 # Use In Blueprint
