@@ -3,7 +3,7 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
 # MUST WATCH !! 
  Just 5 min
- https://youtu.be/xp9QjQfUzTk
+ https://youtu.be/ysZ-h2DjfGk
 
 # Prerequired
  - Ready iOS Device or Mac for Two-Factor Authentication
@@ -28,7 +28,8 @@ this is a OnlineSubsystemApple plugin for unreal engine 4, both c++ and blueprin
 
 # FAQ
  After You edit DefaultEngine.ini (Step1) and Restart Editor (Step2). But still show Invlid_Request in SignIn process <br />
-  - Check Double quotes LoginRedirectUrl and CheckBackendUrl. Like "https://onlinesubsystem.azurewebsites.net/api/apple/redirect" <br />
+  - Check Double quotes LoginRedirectUrl and CheckBackendUrl. <br />
+  Like "https://onlinesubsystem.azurewebsites.net/api/apple/redirect" <br />
   - Restart Unreal Editor. for read again DefaultEngine.ini. <br />
 
 
