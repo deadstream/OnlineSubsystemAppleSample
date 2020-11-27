@@ -10,10 +10,10 @@
  - Ready iOS Device or Mac for Two-Factor Authentication<br/>
  - You have to Activate Two-Factor Authentication<br/>
 
- # On IOS
-  - Need build plugin your own project.
-  - Xcode 11 or later
-  - iOS 13 or later
+ # On iOS Build Require. 
+ - Need build plugin your own project.
+ - Xcode 11 or later
+ - iOS 13 or later
 
 # Step1 - Edit your Unreal Project [DefaultEngine.ini]
 
