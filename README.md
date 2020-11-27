@@ -5,10 +5,15 @@
 # MUST WATCH !! 
  Just 5 min https://youtu.be/ysZ-h2DjfGk
 
-# Prerequired - https://support.apple.com/HT204915
+ # Prerequired - https://support.apple.com/HT204915
  - Apple Account <br/>
  - Ready iOS Device or Mac for Two-Factor Authentication<br/>
  - You have to Activate Two-Factor Authentication<br/>
+
+ # On IOS
+  - Need build plugin your own project.
+  - Xcode 11 or later
+  - iOS 13 or later
 
 # Step1 - Edit your Unreal Project [DefaultEngine.ini]
 
