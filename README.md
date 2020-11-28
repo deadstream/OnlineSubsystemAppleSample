@@ -10,10 +10,7 @@
  - Ready iOS Device or Mac for Two-Factor Authentication<br/>
  - You have to Activate Two-Factor Authentication<br/>
 
- # On iOS Build Require. 
- - Need build plugin your own project.
- - Xcode 11 or later
- - iOS 13 or later
+ 
 
 # Step1 - Edit your Unreal Project [DefaultEngine.ini]
 
@@ -30,6 +27,12 @@
 
 # Use in Blueprint
 ![ScreenShot](img/Step14.png) 
+
+# Only iOS Build Require.
+ - Need build plugin your own project.
+ - Xcode 11 or later
+ - iOS 13 or later
+ - Uncomment OnlinesubsystemApple.Build.cs Line:86
 
 # FAQ
  After You edit DefaultEngine.ini (Step1) and Restart Editor (Step2). But still show Invlid_Request in SignIn process <br />
